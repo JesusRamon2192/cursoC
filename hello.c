@@ -1,6 +1,11 @@
 #include <stdio.h> 
 //Zona donde incluimos nuestras librerias. 
 //Directivas de precompilador (Preprocessors Comands).
+printf("Card %d", z);
+int i, j, k;
+unsigned int minimumMinutes = 30;
+char y = 'y';
+unsigned char dailyWorkedHours;
 
 int main()  //Funcion principal, aqui es donde la ejecucion de mi programa comienza. Todo el codigo va aqui dentro.
 {
@@ -12,9 +17,11 @@ int main()  //Funcion principal, aqui es donde la ejecucion de mi programa comie
 Basic Types:
         Aritmeticos:
             (A) Valores enteros:
+                            char 1 Byte
+                            unsigned char 1 Byte 0 a 255
                             int 2 o 4 Bytes permite tener numeros negativos y positivos
                                             2 Bytes -32,768 to 32,757
-                                            4 bytes -2,147,483,648 to 2,147,483
+                                            4 bytes -2,147,483,648 to 2,147,483,647
                             unsigned int 2 o 4 bytes no nos permite tener datos negativos
                                             2 Bytes 0 to 65.535
                                             4 bytes 0 to 4,294,967,295
