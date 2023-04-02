@@ -1,19 +1,22 @@
 #include <stdio.h> 
 
 //Variable declarations
-int a, b, c;
+extern int a, b, c;
 
 float f, g, h;
 
 int main() 
 {
+    //Variable definition
+    int a, b, c;
+
     //Variable initialization
-    a = 10;
-    b = 2147483647;
+    g = 1000.999999;
+    f = 1.111111;
 
-    c = a + b;
+    h = g + f;
 
 
-    printf("Value of sum is: %d\n", c);
+    printf("Value of sum is: %f\n", h);
     return 0;
 }
